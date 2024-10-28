@@ -1,10 +1,11 @@
-name: print greeting
+name: print
 on: push
 jobs:
-  print_message:
+  print:
     runs-on: ubuntu-latest
     steps:
-      - name: print greeting
-        run: echo "Hello!" 
+      - name: print
+        run: echo "action"
+
 
 
